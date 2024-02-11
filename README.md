@@ -5,13 +5,21 @@
 The dataset contains information about used cars:
 
 name
+
 year
+
 selling_price
+
 km_driven
+
 fuel
+
 seller_type
+
 transmission
+
 Owner
+
 
 
 **The  RandomForestRegressor algorithm is used to predict the price of used cars**:
