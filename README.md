@@ -1,11 +1,8 @@
 # Car_price_Prediction
 
 
-About Dataset
-This dataset contains information about used cars.
-This data can be used for a lot of purposes such as price prediction to exemplify the use of linear regression in Machine Learning.
-The columns in the given dataset are as follows:
-
+**About Dataset**
+The dataset contains information about used cars:
 name
 year
 selling_price
@@ -14,3 +11,12 @@ fuel
 seller_type
 transmission
 Owner
+
+
+**The  RandomForestRegressor algorithm is used to predict the price of used cars**:
+Steps:
+1. Data cleaning
+2. Data correlation visualization using pair plot and heatmap
+3. RandomForestRegressor algorithm
+4. Extract important features
+5. Random search of parameters, using 3 fold cross validation
